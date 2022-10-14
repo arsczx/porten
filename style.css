@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Open+Sans&family=Oswald&family=Playfair+Display:wght@700&family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courgette', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    height: 10vh;
+    background-color: #0f0f0f;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #969696;
+}
+
+header .container>div {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    height: 90vh;
+    background-image: url(./images/Rectangle\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+}
+
+.ramka {
+    border: 4px solid #ffffff;
+    width: 320px;
+    height: 320px;
+    margin-bottom: 80px;
+}
+
+main>p {
+    width: 720px;
+}
+
+.centerToCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ramka img {
+    border-bottom: 2px solid white;
+}
+
+.ramka p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.season {
+    background-color: black;
+}
+
+.top,
+.bottom {
+    height: 70vh;
+    display: flex;
+    color: white;
+}
+
+.top .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5%;
+    width: 55%;
+}
+
+.top .right {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    background-image: url(./images/Rectangle\ 8.jpg);
+    padding-bottom: 100px;
+}
+
+.clocks {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.clock div {
+    background-color: #191b1c;
+    padding: 25px 10px;
+}
+
+.top .left hr {
+    margin: 50px 0;
+}
+
+.top .right hr {
+    margin: 10px 0;
+}
+
+.season .right button {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: none;
+    border: 1px solid white;
+    padding: 10px 25px;
+}
+
+.season>div>div>h1,
+section .container>h1 {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bottom .left {
+    width: 45%;
+    background-image: url(./images/Rectangle\ 9.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bottom .right {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5% 0;
+}
+
+.bottom .right p {
+    width: 470px;
+    text-align: center;
+}
+
+.new {
+    background-color: black;
+    color: white;
+    height: 120vh;
+}
+
+.new .container,
+.brands .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new hr {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.new {
+    padding: 100px 0;
+}
+
+.brands {
+    background-color: #0F0F0F;
+    color: white;
+    padding: 60px 0;
+}
+
+.brands hr {
+    margin: 40px 0;
+}
+
+.end {
+    background-image: url(./images/Rectangle\ 15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.end p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 37px;
+}
+
+.end .clocks .clock button {
+    background-color: #0F0F0F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.end .clocks .clock input {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: black;
+    border: none;
+    height: 35px;
+}
+
+.end .clocks .clock>p {
+    width: 350px;
+}
+
+.end .clocks {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: #0F0F0F;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+footer>p {
+    padding: 17px 0;
+}
+
+#burger {
+    width: 32px;
+    display: none;
+}
+
+@media (max-width: 576px) {
+    header .container>div {
+        display: none;
+    }
+
+    #burger {
+        display: block;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    main>p {
+        width: 80%;
+        text-align: center;
+    }
+
+    .top,
+    .bottom {
+        height: fit-content;
+        flex-direction: column;
+    }
+
+    .top .left {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .top .left hr {
+        margin: 30px;
+    }
+
+    .clocks {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top .clock {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .top .right {
+        width: 100%;
+        height: 70vh;
+    }
+
+    .season>div>div>h1,
+    section .container>h1 {
+        font-size: 28px;
+    }
+    .bottom .left, .bottom .right {
+        width: 100%;
+        height: 70vh;
+    }
+    .bottom .right p {
+        width: 80%;
+    }
+    .bottom .right {
+        order: -1;
+    }
+    .new {
+        height: fit-content;
+        padding: 60px 0;
+    }
+    .new hr {
+        margin: 30px 0;
+    }
+    .end {
+        height: fit-content;
+    }
+    .end .clocks .clock>p {
+        width: 300px;
+    }
+    
+}
